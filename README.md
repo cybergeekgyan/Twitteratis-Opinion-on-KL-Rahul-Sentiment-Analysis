@@ -2,7 +2,10 @@
 
 KL Rahul is a well-known Indian cricketer who has a huge following on social media, especially on Twitter. Sentiment analysis on his tweets could provide insights into how people perceive him and his performance on the cricket field.
 
-To carry out this project,We would need to collect a significant amount of data from Twitter, 
+This project aims to collect tweets related to the Indian cricketer KL Rahul, preprocess the collected data, and perform sentiment analysis on the tweets. 
+- The project can help gain insights into how the public perceives KL Rahul on Twitter and can be extended to perform sentiment analysis on other public figures or entities.
+
+To carry out this project, We would need to collect a significant amount of data from Twitter, 
   - such as tweets that mention KL Rahul, 
   - hashtags related to him, and 
   - other relevant keywords. 
