@@ -19,7 +19,7 @@ There are many tools and libraries available for carrying out sentiment analysis
   - VADER.
   
   
-## Project Setup 
+## Project Architecture 
 
 How to set up the project for Twitter sentiment analysis on KL Rahul. Here are the general steps to follow:
 
@@ -32,7 +32,7 @@ How to set up the project for Twitter sentiment analysis on KL Rahul. Here are t
 - [Sentiment Visualization](): Finally, We can visualize the sentiment of the tweets using *histograms*, *heatmaps*, *graphs*, *charts*, *scatterplots* or *word clouds*.
 
 - [Report Generation]() : This component is responsible for generating a report that summarizes our findings and insights from the sentiment analysis. The report should include the `sentiment distribution`, `most common words` or `phrases` used in `positive` and `negative tweets`, and other relevant insights.
-The report will be generated in a PDF or HTML format.
+The report will be generated in a PDF or HTML format. We can use libraries such as `ReportLab` or `Jupyter Notebook` to generate the report in PDF or HTML format.
 
 - [User Interface Module](): This module is responsible for providing a user interface for the system. It will provide a web-based or desktop-based interface to allow the user to interact with the system. The user interface will allow the user to select the time frame, hashtags, and keywords for data collection, and visualize the sentiment analysis results.
 
@@ -48,15 +48,16 @@ Here are the tools and libraries that you may need for this project:
 - `Matplotlib`, `Plotly` or `Seaborn` (for visualization)
 
 
-## Project Architecture 
+## Project Setup 
 
 Here's a high-level plan for setting up the project:
 
-Install Python 3.x on your system if you don't have it installed already.
-Install the required libraries using pip or conda commands.
-Register for a Twitter developer account and create an API key to access Twitter's API.
-Use Tweepy or Twint to collect tweets that mention KL Rahul.
-Preprocess the data to remove noise and irrelevant information.
-Perform sentiment analysis using NLTK, TextBlob, or VADER.
-Visualize the sentiment of the tweets using Matplotlib or Seaborn.
-Write a report summarizing your findings and insights from the sentiment analysis.
+- Install `Python 3.x` on your system if you don't have it installed already.
+- Install the required libraries using pip or conda commands.
+- Register for a Twitter developer account and create an API key to access Twitter's API.
+- Use `Tweepy` or `Twint` to collect tweets that mention KL Rahul.
+- Preprocess the data to `remove noise` and `irrelevant information`. 
+- Perform `text cleaning`, `remove stop words`, `handle spelling errors`, and `normalize the text data`.
+- Perform sentiment analysis using NLTK, TextBlob, or VADER. 
+- Visualize the sentiment of the tweets using `Matplotlib` or `Seaborn`.
+- Generate a report summarizing our findings and insights from the sentiment analysis.
